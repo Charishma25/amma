@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Mother's Day Amma ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:linear-gradient(180deg,#fff5f7,#ffeef2,#fff7f9);
+      overflow-x:hidden;
+      color:#4b2e39;
+    }
+
+    .hearts span{
+      position:absolute;
+      bottom:-100px;
+      width:20px;
+      height:20px;
+      background:#ff7aa2;
+      transform:rotate(45deg);
+      animation:float 10s linear infinite;
+      opacity:0.4;
+      border-radius:3px;
+    }
+
+    .hearts span::before,
+    .hearts span::after{
+      content:'';
+      position:absolute;
+      width:20px;
+      height:20px;
+      background:#ff7aa2;
+      border-radius:50%;
+    }
+
+    .hearts span::before{
+      top:-10px;
+      left:0;
+    }
+
+    .hearts span::after{
+      left:-10px;
+      top:0;
+    }
+
+    @keyframes float{
+      0%{
+        transform:translateY(0) rotate(45deg);
+        opacity:0;
+      }
+      30%{
+        opacity:0.5;
+      }
+      100%{
+        transform:translateY(-120vh) rotate(45deg);
+        opacity:0;
+      }
+    }
+
+    .hero{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:40px 20px;
+      position:relative;
+    }
+
+    .hero-content{
+      max-width:900px;
+      background:rgba(255,255,255,0.55);
+      backdrop-filter:blur(10px);
+      padding:50px 30px;
+      border-radius:30px;
+      box-shadow:0 10px 40px rgba(0,0,0,0.08);
+      animation:fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn{
+      from{
+        opacity:0;
+        transform:translateY(30px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    .title{
+      font-family:'Great Vibes',cursive;
+      font-size:4.2rem;
+      color:#ff4f87;
+      margin-bottom:20px;
+    }
+
+    .message{
+      font-size:1.3rem;
+      line-height:2.2rem;
+      color:#5f3b48;
+      font-weight:400;
+    }
+
+    .gallery{
+      padding:80px 20px;
+      text-align:center;
+    }
+
+    .gallery h2{
+      font-size:2.5rem;
+      color:#ff4f87;
+      margin-bottom:50px;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .gallery-grid img{
+      width:100%;
+      height:350px;
+      object-fit:cover;
+      border-radius:25px;
+      transition:0.4s ease;
+      box-shadow:0 10px 25px rgba(0,0,0,0.12);
+    }
+
+    .gallery-grid img:hover{
+      transform:translateY(-10px) scale(1.03);
+    }
+
+    .love-section{
+      padding:80px 20px;
+      text-align:center;
+    }
+
+    .love-card{
+      max-width:850px;
+      margin:auto;
+      background:white;
+      padding:50px 30px;
+      border-radius:30px;
+      box-shadow:0 10px 35px rgba(0,0,0,0.08);
+    }
+
+    .love-card h3{
+      font-size:2rem;
+      color:#ff4f87;
+      margin-bottom:20px;
+    }
+
+    .love-card p{
+      font-size:1.15rem;
+      line-height:2rem;
+      color:#5c4450;
+    }
+
+    .footer{
+      padding:40px 20px;
+      text-align:center;
+      color:#8a6572;
+      font-size:1rem;
+    }
+
+    .btn{
+      margin-top:35px;
+      display:inline-block;
+      background:#ff5c93;
+      color:white;
+      text-decoration:none;
+      padding:14px 30px;
+      border-radius:40px;
+      font-size:1rem;
+      transition:0.3s ease;
+      box-shadow:0 10px 25px rgba(255,92,147,0.3);
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+      background:#ff3f7f;
+    }
+
+    @media(max-width:768px){
+      .title{
+        font-size:3rem;
+      }
+
+      .message{
+        font-size:1.05rem;
+        line-height:1.9rem;
+      }
+
+      .gallery h2,
+      .love-card h3{
+        font-size:2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hearts">
+    <span style="left:10%; animation-delay:0s"></span>
+    <span style="left:25%; animation-delay:2s"></span>
+    <span style="left:40%; animation-delay:4s"></span>
+    <span style="left:60%; animation-delay:1s"></span>
+    <span style="left:75%; animation-delay:3s"></span>
+    <span style="left:90%; animation-delay:5s"></span>
+  </div>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="title">Happy Mother's Day Amma ❤️</h1>
+
+      <p class="message">
+        To Our Lovely Amma ❤️ <br>
+        Your smile gives us peace, <br>
+        your care gives us strength, <br>
+        and your love gives us everything ✨ <br>
+        You are the strongest person I know 💖 <br>
+        Happy Mother’s Day.
+      </p>
+
+      <a href="#gallery" class="btn">Love You Amma 💖</a>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Beautiful Memories ✨</h2>
+
+    <div class="gallery-grid">
+      <img src="WhatsApp Image 2026-05-09 at 21.51.20.jpeg" alt="Amma Photo">
+      <img src="WhatsApp Image 2026-05-09 at 21.51.39.jpeg" alt="Amma Photo">
+      <img src="WhatsApp Image 2026-05-09 at 21.52.11.jpeg" alt="Amma Photo">
+      <img src="WhatsApp Image 2026-05-09 at 21.53.01.jpeg" alt="Amma Photo">
+    </div>
+  </section>
+
+  <section class="love-section">
+    <div class="love-card">
+      <h3>For The Most Precious Person 💕</h3>
+
+      <p>
+        Thank you Amma for every little sacrifice, every smile, and every moment of love you give us every single day. 
+        Your kindness, strength, and care make our lives brighter and happier. 
+        No matter where life takes us, your love will always be our biggest comfort ✨
+      </p>
+    </div>
+  </section>
+
+  <div class="footer">
+    Made with endless love for Amma ❤️
+  </div>
+
+</body>
+</html>
